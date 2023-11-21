@@ -17,7 +17,7 @@
     background-image: url(/images/planeta1.svg), url(/images/universe1.jpg);
     background-position: bottom, top;
     background-repeat: no-repeat;
-    background-size: 500px, cover;
+    background-size: 499px, cover;
     
 }
 .bg2{
