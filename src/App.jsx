@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import QuoteBox from './components/quoteBox'
+import QuoteBox from './components/QuoteBox'
 //creamos un arreglo para imagens
 const bgs=["bg1","bg2","bg3","bg4"]
 const planet=["pla1","pla2","pla3","pla4"]
