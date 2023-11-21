@@ -1,0 +1,42 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    
+    
+    background-size: cover;/*cuando la imagen sea grande para q no se repita*/
+    font-family: 'DS-Digital', sans-serif;
+}   
+
+
+.bg1{
+    background-image: url(/images/planeta1.svg), url(/images/universe1.jpg);
+    background-position: bottom, top;
+    background-repeat: no-repeat;
+    background-size: 500px, cover;
+    
+}
+.bg2{
+    background-image: url(/images/planeta2.svg), url(/images/universe2.jpg);
+    background-position: bottom, top;
+    background-repeat: no-repeat;
+    background-size: 500px, cover;;
+}
+.bg3{
+    background-image: url(/images/planeta3.svg), url(/images/universe3.jpg);
+    background-position: bottom, top;
+    background-repeat: no-repeat;
+    background-size: 500px, cover;
+    
+}
+.bg4{
+    background-image: url(/images/planeta4.svg), url(/images/universe4.jpg);
+    background-position: bottom, top;
+    background-repeat: no-repeat;
+    background-size: 500px, cover;
+    
+}

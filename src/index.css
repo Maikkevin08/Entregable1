@@ -1,0 +1,20 @@
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
+html{
+    box-sizing: border-box;
+    
+}
+/* html es el padre  */
+*, 
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+/* desde el padre se va heredar todo como rl box-sizeng: inherit */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5, h6, p {
+    margin: 0;
+}

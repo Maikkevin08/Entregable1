@@ -1,0 +1,45 @@
+.quotebox{
+    max-width: 400px;
+    display: grid;/*seprando los elemntos en grid (bloques)*/
+    gap: 30px;/*sepracio de30px de cad bloque*/
+    justify-items: center;
+    ;
+    
+}
+.quotebox__title{
+    font-size: 50px;
+    text-shadow: 0px 4px 6px #9F84C5;
+}
+.quotebox__author{
+    position: absolute;/*para sacar del flujo de las caja*/
+    bottom: 10px;  
+    left: 50%; 
+    transform: translate(-50%);
+}
+.quotebox__box{
+    display: flex;
+
+    /* El último valor (0.2) determina la opacidad, 
+    siendo 1 totalmente opaco y 0 totalmente transparente */
+    background: linear-gradient(175deg, #fff 0%, rgba(215, 179, 179, 0.2) 100%);
+    font-size: 25px;
+    color: #1e0a2e;
+    border-radius: 40px;
+    padding: 50px 20px;
+    box-shadow: 2px 2px 20px #fff; /*agrega sombras borde a los elementos horizontal y vertical*/
+    
+
+}
+.quotebox__btn {
+    border: none;
+    background: transparent;
+    
+    
+    
+
+}
+.quotebox__author{
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+}
+
